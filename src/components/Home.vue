@@ -1,10 +1,9 @@
 <template>
   <Page class="page">
-    <ActionBar class="action-bar" title="Styling"/>
+    <ActionBar class="action-bar" title="NSVue Axios"/>
 
     <StackLayout>
-      <Button class="btn btn-primary" @tap="$router.push('/counter')">Counter</Button>
-      <Button class="btn btn-primary" @tap="$router.push('/hello')">Hello World</Button>
+      <Label text="Hello world !" />
     </StackLayout>
 
   </Page>
